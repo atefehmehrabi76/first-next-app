@@ -10,7 +10,7 @@ function Home() {
             {
                 posts.map((post)=>(
                     <li key={post.id} className='border rounded-lg bg-blue-900 text-white py-3 w-[180px] text-center'>
-                        <Link href={`/blog/${post.id}`}>
+                        <Link href={`/${post.id}`}>
                            {post.title}
                         </Link>
                     </li>
